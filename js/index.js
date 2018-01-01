@@ -3,8 +3,11 @@ var listTools = $( '.list_Tools' )
 var name_fe = [
     { name: 'VueJs' , mark: '构建用户界面的渐进式框架' , link: 'https://cn.vuejs.org/' } ,
     { name: 'BootStrap 中文网' , mark: '简洁、直观、强悍的前端开发框架' , link: 'http://www.bootcss.com/' } ,
+    { name: 'AngularJS 英文网' , mark: 'MVC架构的JavaScript开发工具' , link: 'https://www.angular.io/' } ,
+    { name: 'AngularJS 中文网' , mark: 'MVC架构的JavaScript开发工具' , link: 'https://www.angular.cn/' } ,
 ]
 var name_tools = [
+    { name: 'WebStorm' , mark: '前端开发神器' , link: 'https://www.jetbrains.com/webstorm/' } ,
     { name: 'BootCDN' , mark: '稳定、快速、免费的前端开源项目 CDN 加速服务' , link: 'http://www.bootcdn.cn/' } ,
 ]
 $( function () {
