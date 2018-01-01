@@ -1,50 +1,65 @@
-* {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
     padding: 0;
-
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
 }
 
 a {
+    font-size: 16px;
     text-decoration: none;
-    color: brown;
-}
-
-body {
-    padding: 10px;
+    color: #607D8B;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 ul {
     list-style: none;
 }
 
+body {
+    padding: 10px;
+    font-family: '幼圆';
+}
+
 .header {
     text-align: center;
-    color: cadetblue;
-    font-family: '幼圆';
+    color: #1565C0;
+}
+
+.fontEnd, .tools {
+    float: left;
+    width: 30%;
+    margin: 20px 3%;
+}
+
+.listTitle {
+    font-size: 16px;
+    color: #26A69A;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.list_Fe a, .list_Tools a {
+    display: block;
+}
+
+.list_Fe li, .list_Tools li {
+    padding: 10px 5px;
+    background: #f0f0f0;
     margin-bottom: 10px;
 }
 
-.link {
-    padding: 10px 10px;
+.list_Fe li:hover, .list_Tools li:hover {
+    background: #AED581;
 }
 
-.link .title {
-    font-size: 18px;
-    margin-bottom: 10px;
-    padding-left: 1em;
+.mark {
+    font-size: 14px;
+    color: grey;
+    font-family: '黑体';
+    font-weight: lighter;
+    display: block;
+    margin-top: 5px;
 }
-
-.link li:before {
-    content: ' ';
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background: cadetblue;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.link a {
-    border-bottom: 2px cadetblue solid;
-}
-
