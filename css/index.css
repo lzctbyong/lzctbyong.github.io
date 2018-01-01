@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+body {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    color: cadetblue;
+    font-family: '幼圆';
+    margin-bottom: 10px;
+}
+
+.link {
+    padding: 10px 10px;
+}
+
+.link .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 1em;
+}
+
+.link li:before {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: cadetblue;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.link a {
+    border-bottom: 2px cadetblue solid;
+}
+
