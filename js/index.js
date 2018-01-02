@@ -1,5 +1,6 @@
 var listFe = $( '.list_Fe' )
 var listTools = $( '.list_tls' )
+var listSty = $( '.list_sty' )
 var name_fe = [
     {
         name: 'Vue.Js' ,
@@ -30,6 +31,9 @@ var name_fe = [
 var name_tools = [
     { name: 'WebStorm' , mark: '前端开发神器' , link: 'https://www.jetbrains.com/webstorm/' } ,
     { name: 'BootCDN' , mark: '稳定、快速、免费的前端开源项目 CDN 加速服务' , link: 'http://www.bootcdn.cn/' } ,
+]
+var name_study = [
+    { name: 'Runoob' , mark: '菜鸟教程' , link: 'http://www.runoob.com/' } ,
 ]
 $( function () {
     name_fe.sort( function ( v1 , v2 ) {
@@ -68,5 +72,13 @@ $( function () {
         node_item.find( '.itemTitle' ).text( obj.name )
         node_item.find( '.mark' ).text( obj.mark )
         listTools.append( node_item )
+    } )
+    name_study.map( ( obj ) => {
+        let node_item = $( '#ex_3' ).clone()
+        node_item.removeAttr( 'id' )
+        node_item.find( 'a' ).attr( 'href' , obj.link )
+        node_item.find( '.itemTitle' ).text( obj.name )
+        node_item.find( '.mark' ).text( obj.mark )
+        listSty.append( node_item )
     } )
 } )

@@ -43,7 +43,7 @@ body {
     text-align: center;
 }
 
-.list_Fe, .list_tls {
+.list_Fe, .list_tls, .list_sty {
     padding: 5px 10px;
 }
 
@@ -107,10 +107,10 @@ body {
     word-break: break-all;
 }
 
-#ex_1, #ex_2 {
+#ex_1, #ex_2, #ex_3 {
     display: none;
 }
 
-.list_tls .item1:hover {
+.list_tls .item1:hover, .list_sty .item1:hover {
     border: 2px solid dodgerblue;
 }
