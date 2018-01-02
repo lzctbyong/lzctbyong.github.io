@@ -36,6 +36,11 @@ var name_fe = [
         name: 'Webpack' ,
         mark: '静态模块打包器' ,
         link: [ 'https://webpack.js.org/' , 'https://webpack.js.org/concepts/' , 'https://doc.webpack-china.org/' , 'https://doc.webpack-china.org/concepts/' ]
+    },
+    {
+        name: 'sass' ,
+        mark: '最成熟、最稳定、最强大的专业级CSS扩展语言' ,
+        link: [ 'http://sass-lang.com/' , 'http://sass-lang.com/documentation/file.SASS_REFERENCE.html' , 'https://www.sass.hk/' , 'https://www.sass.hk/docs/' ]
     }
 ]
 var name_tools = [
