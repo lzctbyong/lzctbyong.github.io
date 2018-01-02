@@ -26,11 +26,16 @@ var name_fe = [
         name: 'JQuery' ,
         mark: '一个高效、精简并且功能丰富的 JavaScript 工具库' ,
         link: [ 'https://jquery.com/' , 'https://api.jquery.com/' , 'https://www.jquery123.com/' , 'https://www.jquery123.com/' ]
-    },
+    } ,
     {
         name: 'Ionic' ,
         mark: '一个强大的 HTML5 应用程序开发框架' ,
         link: [ 'https://ionicframework.com/' , 'https://ionicframework.com/docs/' , 'http://www.ionic-china.com/' , null ]
+    } ,
+    {
+        name: 'Webpack' ,
+        mark: '静态模块打包器' ,
+        link: [ 'https://webpack.js.org/' , 'https://webpack.js.org/concepts/' , 'https://doc.webpack-china.org/' , 'https://doc.webpack-china.org/concepts/' ]
     }
 ]
 var name_tools = [
@@ -42,18 +47,10 @@ var name_study = [
 ]
 $( function () {
     name_fe.sort( function ( v1 , v2 ) {
-        if ( v1.name > v2.name ) {
-            return 1
-        } else {
-            return 0
-        }
+        return v1.name > v2.name
     } )
     name_tools.sort( function ( v1 , v2 ) {
-        if ( v1.name > v2.name ) {
-            return 1
-        } else {
-            return 0
-        }
+        return v1.name > v2.name
     } )
     name_fe.map( ( obj , index ) => {
         let node_item = $( '#ex_1' ).clone()
