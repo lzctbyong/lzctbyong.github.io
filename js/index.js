@@ -26,6 +26,11 @@ var name_fe = [
         name: 'JQuery' ,
         mark: '一个高效、精简并且功能丰富的 JavaScript 工具库' ,
         link: [ 'https://jquery.com/' , 'https://api.jquery.com/' , 'https://www.jquery123.com/' , 'https://www.jquery123.com/' ]
+    },
+    {
+        name: 'Ionic' ,
+        mark: '一个强大的 HTML5 应用程序开发框架' ,
+        link: [ 'https://ionicframework.com/' , 'https://ionicframework.com/docs/' , 'http://www.ionic-china.com/' , null ]
     }
 ]
 var name_tools = [
