@@ -38,7 +38,7 @@ var name_fe = [
         link: [ 'https://webpack.js.org/' , 'https://webpack.js.org/concepts/' , 'https://doc.webpack-china.org/' , 'https://doc.webpack-china.org/concepts/' ]
     },
     {
-        name: 'sass' ,
+        name: 'Sass' ,
         mark: '最成熟、最稳定、最强大的专业级CSS扩展语言' ,
         link: [ 'http://sass-lang.com/' , 'http://sass-lang.com/documentation/file.SASS_REFERENCE.html' , 'https://www.sass.hk/' , 'https://www.sass.hk/docs/' ]
     }
