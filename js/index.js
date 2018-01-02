@@ -10,7 +10,7 @@ var name_fe = [
     {
         name: 'BootStrap' ,
         mark: '简洁、直观、强悍的前端开发框架' ,
-        link: [ null , null , 'http://www.bootcss.com/' , 'https://v3.bootcss.com/' ]
+        link: [ 'https://getbootstrap.com/' , 'https://getbootstrap.com/docs/4.0/getting-started/introduction/' , 'http://www.bootcss.com/' , 'https://v3.bootcss.com/' ]
     } ,
     {
         name: 'AngularJS' ,
