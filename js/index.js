@@ -50,7 +50,7 @@ var name_tools = [
 ]
 var name_study = [
     { name: 'Runoob' , mark: '菜鸟教程' , link: 'http://www.runoob.com/' } ,
-    { name: '李炎恢老师Bootstrap' , mark: 'Bootstrap教程' , link: 'http://class.qq.com/class/14632.html' } ,
+    { name: 'BootStrap(李炎恢)' , mark: 'Bootstrap教程' , link: 'http://class.qq.com/class/14632.html' } ,
 ]
 $( function () {
     name_fe.sort( function ( v1 , v2 ) {
