@@ -46,6 +46,7 @@ var name_fe = [
 var name_tools = [
     { name: 'WebStorm' , mark: '前端开发神器' , link: 'https://www.jetbrains.com/webstorm/' } ,
     { name: 'BootCDN' , mark: '稳定、快速、免费的前端开源项目 CDN 加速服务' , link: 'http://www.bootcdn.cn/' } ,
+    { name: 'React Primer' , mark: '一个生成React组件代码的原型工具' , link: 'http://react-primer.com/' } ,
 ]
 var name_study = [
     { name: 'Runoob' , mark: '菜鸟教程' , link: 'http://www.runoob.com/' } ,
