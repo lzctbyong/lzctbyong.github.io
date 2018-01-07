@@ -1,0 +1,126 @@
+{
+  "data": {
+    "kuang": [
+      {
+        "name": "Vue.Js",
+        "mark": "构建用户界面的渐进式框架",
+        "img": "https://static.bootcss.com/www/assets/img/vuejs.png?1515168018759",
+        "link": [
+          "https://vuejs.org/index.html",
+          "https://vuejs.org/v2/api/",
+          "https://cn.vuejs.org/",
+          "https://cn.vuejs.org/v2/api/"
+        ]
+      },
+      {
+        "name": "BootStrap",
+        "mark": "简洁、直观、强悍的前端开发框架",
+        "img": "img/bootstrap.png",
+        "link": [
+          "https://getbootstrap.com/",
+          "https://getbootstrap.com/docs/4.0/getting-started/introduction/",
+          "http://www.bootcss.com/",
+          "https://v3.bootcss.com/"
+        ]
+      },
+      {
+        "name": "AngularJS",
+        "mark": "MVC架构的JavaScript开发工具",
+        "img": "img/angular.png",
+        "link": [
+          "https://www.angular.io/",
+          "https://angular.io/docs",
+          "https://www.angular.cn/",
+          "https://www.angular.cn/docs"
+        ]
+      },
+      {
+        "name": "React",
+        "mark": "用于构建用户界面的JavaScript库",
+        "img": "img/react.png",
+        "link": [
+          "https://reactjs.org",
+          "https://reactjs.org/docs/hello-world.html",
+          "https://react.bootcss.com/",
+          "https://react.bootcss.com/react/docs/hello-world.html"
+        ]
+      },
+      {
+        "name": "JQuery",
+        "mark": "一个高效、精简并且功能丰富的 JavaScript 工具库",
+        "img": "img/jquery.png",
+        "link": [
+          "https://jquery.com/",
+          "https://api.jquery.com/",
+          "https://www.jquery123.com/",
+          "https://www.jquery123.com/"
+        ]
+      },
+      {
+        "name": "Ionic",
+        "mark": "一个强大的 HTML5 应用程序开发框架",
+        "img": "img/ionic.png",
+        "link": [
+          "https://ionicframework.com/",
+          "https://ionicframework.com/docs/",
+          "http://www.ionic-china.com/",
+          "http://ionic-china.com/doc/V1/ionic-css.html"
+        ]
+      },
+      {
+        "name": "Webpack",
+        "mark": "静态模块打包器",
+        "img": "img/webpack.png",
+        "link": [
+          "https://webpack.js.org/",
+          "https://webpack.js.org/concepts/",
+          "https://doc.webpack-china.org/",
+          "https://doc.webpack-china.org/concepts/"
+        ]
+      },
+      {
+        "name": "Sass",
+        "mark": "最成熟、最稳定、最强大的专业级CSS扩展语言",
+        "img": "img/sass.png",
+        "link": [
+          "http://sass-lang.com/",
+          "http://sass-lang.com/documentation/file.SASS_REFERENCE.html",
+          "https://www.sass.hk/",
+          "https://www.sass.hk/docs/"
+        ]
+      }
+    ],
+    "tool": [
+      {
+        "name": "WebStorm",
+        "mark": "前端开发神器",
+        "img": "img/webstorm.png",
+        "link": "https://www.jetbrains.com/webstorm/"
+      },
+      {
+        "name": "BootCDN",
+        "mark": "稳定、快速、免费的前端开源项目 CDN 加速服务",
+        "img": "img/BootCDN.png",
+        "link": "http://www.bootcdn.cn/"
+      },
+      {
+        "name": "React Primer",
+        "mark": "一个生成React组件代码的原型工具",
+        "img": "img/ReactPrimer.png",
+        "link": "http://react-primer.com/"
+      }
+    ],
+    "study": [
+      {
+        "name": "Runoob",
+        "mark": "在线速查手册",
+        "link": "http://www.runoob.com/"
+      },
+      {
+        "name": "Bootstrap教程",
+        "mark": "李炎恢老师",
+        "link": "http://class.qq.com/class/14632.html"
+      }
+    ]
+  }
+}

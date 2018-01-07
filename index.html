@@ -1,65 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>只是一个导航</title>
+    <title>码头</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
-<div>
-    <div class="fm-bg">
-        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515490292&di=cd3a3e6bc62bfe2580f353376448e51a&imgtype=jpg&er=1&src=http%3A%2F%2Ffile06.16sucai.com%2F2016%2F0715%2F1920016e1e97e1fc3f9bd4bef2b1cf37.jpg">
+<nav class="navbar  navbar-expand-md navbar-dark bg-dark  ">
+    <a class="navbar-brand " href="index.html"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-5  ml-md-5">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">前端</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-md-5">
+                <a class="nav-link" href="#">APP</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-md-5 author1">
+                <a class="navbar-text text-light">作者 : 刘正超</a>
+            </li>
+        </ul>
     </div>
-    <div class="header">
-        <h1>Web Bus</h1>
-    </div>
-    <div class="content">
-        <div class="fontEnd">
-            <h3 class="listTitle">前端框架</h3>
-            <ul class="list_Fe">
-                <li class="item1" id="ex_1">
-                    <div class="top">
-                        <h3 class="itemTitle">BootStrap</h3>
-                        <p class="mark">一个开发框架</p>
+    <form class="form-inline author2">
+        <a class="navbar-text text-light">作者 : 刘正超</a>
+    </form>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 p-3">
+            <p class="h6 text-dark  font-weight-bold"> 前端框架</p>
+            <nav aria-label="Page navigation">
+                <div class="pagination pagination-sm" id="pageNav_kuang">
+                    <a href="#" class="mr-auto" id="ex_3"></a>
+                </div>
+            </nav>
+            <ul class="list-group" id="list_kuang">
+                <li id="ex_1" class="list-group-item mb-2 border-dark">
+                    <div class="media">
+                        <img class="mr-3 w-25 pngIcon"
+                             src="img/angular.png"
+                             alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0 title ">React</h5>
+                            <p class="marks h6">用于构建用户界面的 JavaScript 框架</p>
+                        </div>
                     </div>
-                    <div class="bottom">
-                        <a href="javascript:void(0)" target="_blank">英文官网</a>
-                        <a href="javascript:void(0)" target="_blank">英文文档</a>
-                        <a href="javascript:void(0)" target="_blank">中文官网</a>
-                        <a href="javascript:void(0)" target="_blank">中文文档</a>
+                    <div class="btn-group mt-2 w-100">
+                        <a target="_blank" href="javascript:void(0)"
+                           class="btn-sm btn-info mr-3">英文官网</a>
+                        <a target="_blank" href="javascript:void(0)"
+                           class="btn-sm btn-info mr-3">英文文档</a>
+                        <a target="_blank" href="javascript:void(0)"
+                           class="btn-sm btn-danger mr-3">中文官网</a>
+                        <a target="_blank" href="javascript:void(0)"
+                           class="btn-sm btn-danger">中文文档</a>
                     </div>
                 </li>
             </ul>
         </div>
-        <div class="tools">
-            <h3 class="listTitle">实用工具</h3>
-            <ul class="list_tls">
-                <li class="item1" id="ex_2">
-                    <a href="javascript:void(0)" target="_blank">
-                        <h3 class="itemTitle">BootStrap</h3>
-                        <p class="mark">一个开发框架</p>
-                    </a>
-                </li>
-            </ul>
+        <div class="col-md-4 p-3 ">
+            <p class="h6 text-dark  font-weight-bold">工具</p>
+            <nav aria-label="Page navigation">
+                <div class="pagination pagination-sm" id="pageNav_tool">
+                    <a href="#" class="mr-auto" id="ex_4"></a>
+                </div>
+            </nav>
+            <div class="list-group" id="list_tool">
+                <a id="ex_2" target="_blank" href="javascript:void(0)"
+                   class="list-group-item list-group-item-action  mb-2 border-dark">
+                    <div class="media">
+                        <img class="mr-3 w-25 pngIcon"
+                             src="img/angular.png"
+                             alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0 title ">React</h5>
+                            <p class="marks h6">用于构建用户界面的 JavaScript 框架</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="study">
-            <h3 class="listTitle">教程</h3>
-            <ul class="list_sty">
-                <li class="item1" id="ex_3">
-                    <a href="javascript:void(0)" target="_blank">
-                        <h3 class="itemTitle">BootStrap</h3>
-                        <p class="mark">一个开发框架</p>
-                    </a>
-                </li>
-            </ul>
+        <div class="col-md-4 p-3">
+            <p class="h6 text-dark  font-weight-bold">教程</p>
+            <nav aria-label="Page navigation">
+                <div class="pagination pagination-sm" id="pageNav_study">
+                    <a href="#" class="mr-auto" id="ex_5"></a>
+                </div>
+            </nav>
+            <div class="list-group " id="list_study">
+                <a  id="ex_6" target="_blank" href="javascript:void(0)"
+                   class="list-group-item list-group-item-action  mb-2 border-dark">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5 class="mt-0 title ">React</h5>
+                            <p class="marks h6">用于构建用户界面的 JavaScript 框架</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/index.js"></script>
 </body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script>
 </html>
