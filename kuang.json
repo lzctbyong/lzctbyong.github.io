@@ -88,6 +88,17 @@
           "https://www.sass.hk/",
           "https://www.sass.hk/docs/"
         ]
+      },
+      {
+        "name": "Element",
+        "mark": "基于 Vue 2.0 的桌面端组件库",
+        "img": "img/element.png",
+        "link": [
+          "http://element-cn.eleme.io/#/en-US",
+          "http://element-cn.eleme.io/#/en-US/component/installation",
+          "http://element-cn.eleme.io/#/zh-CN",
+          "http://element-cn.eleme.io/#/zh-CN/component/installation"
+        ]
       }
     ],
     "tool": [
