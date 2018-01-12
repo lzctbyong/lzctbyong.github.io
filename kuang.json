@@ -119,6 +119,12 @@
         "mark": "一个生成React组件代码的原型工具",
         "img": "img/ReactPrimer.png",
         "link": "http://react-primer.com/"
+      },
+      {
+        "name": "Lodash ",
+        "mark": "流行的JavaScript工具库",
+        "img": "img/lodash.png",
+        "link": "http://lodashjs.com/docs/"
       }
     ],
     "study": [
