@@ -6,7 +6,7 @@ var pageNavTool = $( '#pageNav_tool' )
 var pageNavStudy = $( '#pageNav_study' )
 
 $( function () {
-
+    console.log( 'index[9]------------' , window.location.pathname.split( '/' ) )
     $.ajax( {
         type       : 'GET' ,
         contentType: 'application/json;charset=utf-8' ,
