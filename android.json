@@ -1,0 +1,94 @@
+{
+  "data": {
+    "kuang": [
+      {
+        "name": "Glide V4",
+        "mark": "Fast and efficient image loading for Android",
+        "img": "img/glide.png",
+        "link": [
+          "https://bumptech.github.io/glide/",
+          "https://bumptech.github.io/glide/doc/getting-started.html",
+          "https://muyangmin.github.io/glide-docs-cn/",
+          "https://muyangmin.github.io/glide-docs-cn/doc/getting-started.html"
+        ]
+      },
+      {
+        "name": "RxAndroid2",
+        "mark": "Reactive Extensions for Android",
+        "img": "img/square.png",
+        "link": [
+          "https://github.com/ReactiveX/RxAndroid"
+        ]
+      },
+      {
+        "name": "RxJava2",
+        "mark": "Composing asynchronous and event-based programs using observable ",
+        "img": "img/square.png",
+        "link": [
+          "https://github.com/ReactiveX/RxJava"
+        ]
+      },
+      {
+        "name": "OkHttp3",
+        "mark": "An HTTP & HTTP/2 client for Android and Java applications",
+        "img": "img/square.png",
+        "link": [
+          "https://github.com/square/okhttp"
+        ]
+      },
+      {
+        "name": "Retrofit",
+        "mark": "Type-safe HTTP client for Android",
+        "img": "img/square.png",
+        "link": [
+          "https://github.com/square/retrofit"
+        ]
+      },
+      {
+        "name": "Butter Knife",
+        "mark": "Bind Android views and callbacks to fields and methods",
+        "img": "img/square.png",
+        "link": [
+          "https://github.com/JakeWharton/butterknife"
+        ]
+      },
+      {
+        "name": "LeakCanary",
+        "mark": "A memory leak detection library for Android and Java",
+        "img": "img/square.png",
+        "link": [
+          "https://github.com/square/leakcanary"
+        ]
+      },
+      {
+        "name": "EventBus",
+        "mark": "A memory leak detection library for Android and Java",
+        "img": "img/EventBus.png",
+        "link": [
+          "https://github.com/greenrobot/EventBus",
+          "http://greenrobot.org/eventbus/"
+        ]
+      },
+      {
+        "name": "Zxing",
+        "mark": "barcode scanning library for Java, Android",
+        "img": "img/zxing.png",
+        "link": [
+          "https://github.com/zxing/zxing"
+        ]
+      },
+      {
+        "name": "Fastjson",
+        "mark": "a Java library that can be used to convert Java Objects into their JSON representation",
+        "img": "img/fastjson.png",
+        "link": [
+          "https://github.com/alibaba/fastjson"
+        ]
+      }
+    ],
+    "tool": [
+    ],
+    "study": [
+    ]
+  }
+}

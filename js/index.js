@@ -6,10 +6,11 @@ var pageNavTool = $( '#pageNav_tool' )
 var pageNavStudy = $( '#pageNav_study' )
 
 $( function () {
+
     $.ajax( {
         type       : 'GET' ,
         contentType: 'application/json;charset=utf-8' ,
-        url        : 'kuang.json' ,
+        url        : window.location.pathname.split( '/' )[ 2 ] == 'index.html' ? 'kuang.json' : 'android.json' ,
         dataType   : 'json' ,
         success    : function ( res ) {
             var kuang = res.data.kuang
@@ -28,7 +29,7 @@ $( function () {
                     if ( l != null ) {
                         $( element ).attr( 'href' , l )
                     } else {
-                        $( element ).addClass( 'btn-dark disabled' ).removeAttr( 'href' )
+                        $( element ).remove()
                     }
                 } )
                 listKuang.append( node_item )
@@ -50,7 +51,6 @@ $( function () {
                 pageNavKuang.append( node_item )
             }
             pageNavKuang.find( ':eq(1)' ).text( '*' )
-
 
 
             var tool = res.data.tool
@@ -128,7 +128,7 @@ $( function () {
                 if ( l != null ) {
                     $( element ).attr( 'href' , l )
                 } else {
-                    $( element ).addClass( 'btn-dark disabled' ).removeAttr( 'href' )
+                    $( element ).remove()
                 }
             } )
             listKuang.append( node_item )
