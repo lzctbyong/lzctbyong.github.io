@@ -6,11 +6,11 @@ var pageNavTool = $( '#pageNav_tool' )
 var pageNavStudy = $( '#pageNav_study' )
 
 $( function () {
-    console.log( 'index[9]------------' , window.location.pathname.split( '/' ) )
+    var urlarr = window.location.pathname.split( '/' )
     $.ajax( {
         type       : 'GET' ,
         contentType: 'application/json;charset=utf-8' ,
-        url        : window.location.pathname.split( '/' )[ 1 ] == 'index.html' ? 'kuang.json' : 'android.json' ,
+        url        : urlarr[ urlarr.length - 1 ] == 'index.html' ? 'kuang.json' : 'android.json' ,
         dataType   : 'json' ,
         success    : function ( res ) {
             var kuang = res.data.kuang
