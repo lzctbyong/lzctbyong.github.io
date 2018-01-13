@@ -99,6 +99,17 @@
           "http://element-cn.eleme.io/#/zh-CN",
           "http://element-cn.eleme.io/#/zh-CN/component/installation"
         ]
+      },
+      {
+        "name": "Lodash ",
+        "mark": "流行的JavaScript工具库",
+        "img": "img/lodash.png",
+        "link": [
+          "https://lodash.com/",
+          "https://lodash.com/docs/",
+          "http://lodashjs.com/",
+          "http://lodashjs.com/docs/"
+        ]
       }
     ],
     "tool": [
@@ -121,10 +132,10 @@
         "link": "http://react-primer.com/"
       },
       {
-        "name": "Lodash ",
-        "mark": "流行的JavaScript工具库",
-        "img": "img/lodash.png",
-        "link": "http://lodashjs.com/docs/"
+        "name": "Mozilla Web Docs",
+        "mark": "Web 文档",
+        "img": "img/mdn.png",
+        "link": "https://developer.mozilla.org/zh-CN/"
       }
     ],
     "study": [
