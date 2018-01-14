@@ -2,7 +2,23 @@
   "data": {
     "kuang": [
       {
-        "name": "Glide V4",
+        "name": "AppIntro",
+        "mark": "Make a cool intro for your Android app.",
+        "img": "img/logger.png",
+        "link": [
+          "https://github.com/apl-devs/AppIntro"
+        ]
+      },
+      {
+        "name": "ButterKnife",
+        "mark": "Bind Android views and callbacks to fields and methods",
+        "img": "img/square.png",
+        "link": [
+          "https://github.com/JakeWharton/butterknife"
+        ]
+      },
+      {
+        "name": "Glide",
         "mark": "Fast and efficient image loading for Android",
         "img": "img/glide.png",
         "link": [
@@ -44,14 +60,7 @@
           "https://github.com/square/retrofit"
         ]
       },
-      {
-        "name": "Butter Knife",
-        "mark": "Bind Android views and callbacks to fields and methods",
-        "img": "img/square.png",
-        "link": [
-          "https://github.com/JakeWharton/butterknife"
-        ]
-      },
+
       {
         "name": "LeakCanary",
         "mark": "A memory leak detection library for Android and Java",
@@ -70,11 +79,11 @@
         ]
       },
       {
-        "name": "Zxing",
-        "mark": "barcode scanning library for Java, Android",
-        "img": "img/zxing.png",
+        "name": "Dagger",
+        "mark": "Dagger is a fully static, compile-time dependency injection framework for both Java and Android",
+        "img": "img/logger.png",
         "link": [
-          "https://github.com/zxing/zxing"
+          "https://google.github.io/dagger/"
         ]
       },
       {
@@ -84,11 +93,64 @@
         "link": [
           "https://github.com/alibaba/fastjson"
         ]
+      },
+      {
+        "name": "Realm",
+        "mark": "Database",
+        "img": "img/realm.png",
+        "link": [
+          "https://realm.io/cn/docs/"
+        ]
+      },
+      {
+        "name": "Logger",
+        "mark": "Simple, pretty and powerful logger for android",
+        "img": "img/logger.png",
+        "link": [
+          "https://github.com/orhanobut/logger"
+        ]
+      },
+      {
+        "name": "PrmissionsDispatcher",
+        "mark": "PermissionsDispatcher provides a simple annotation-based API to handle runtime permissions.",
+        "img": "img/prmissions.png",
+        "link": [
+          "https://google.github.io/dagger/"
+        ]
+      },
+      {
+        "name": "AndroidAnnotations",
+        "mark": "AndroidAnnotations is an Open Source framework that speeds up Android development",
+        "img": "img/androidannotations.png",
+        "link": [
+          "http://androidannotations.org/",
+          "https://github.com/androidannotations/androidannotations/wiki"
+        ]
+      },
+      {
+        "name": "Zxing",
+        "mark": "barcode scanning library for Java, Android",
+        "img": "img/zxing.png",
+        "link": [
+          "https://github.com/zxing/zxing"
+        ]
       }
     ],
     "tool": [
+      {
+        "name": "Freeline",
+        "mark": "Android 平台上的秒级编译方案，Instant Run 的替代品",
+        "img": "img/freeline.png",
+        "link": "https://www.freelinebuild.com/"
+      }
     ],
     "study": [
+      {
+        "name": "EffectiveAndroid UI ",
+        "mark": "Sample project created to reinforce some of the main concepts ",
+        "img": "img/logger.png",
+        "link": "https://github.com/pedrovgs/EffectiveAndroidUI"
+      }
     ]
   }
 }

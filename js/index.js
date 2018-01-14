@@ -14,10 +14,7 @@ $( function () {
         dataType   : 'json' ,
         success    : function ( res ) {
             var kuang = res.data.kuang
-
-            kuang.sort( function ( v1 , v2 ) {
-                return v1.name > v2.name
-            } )
+            sortUp( kuang )
             kuang.map( ( obj , index ) => {
                 let node_item = $( '#ex_1' ).clone()
                 node_item.removeAttr( 'id' )
@@ -54,9 +51,7 @@ $( function () {
 
 
             var tool = res.data.tool
-            tool.sort( function ( v1 , v2 ) {
-                return v1.name > v2.name
-            } )
+            sortUp(tool)
             tool.map( ( obj ) => {
                 let node_item = $( '#ex_2' ).clone()
                 node_item.removeAttr( 'id' )
@@ -85,9 +80,7 @@ $( function () {
             pageNavTool.find( ':eq(1)' ).text( '*' )
 
             var study = res.data.study
-            study.sort( function ( v1 , v2 ) {
-                return v1.name > v2.name
-            } )
+            sortUp(study)
             study.map( ( obj ) => {
                 let node_item = $( '#ex_6' ).clone()
                 node_item.removeAttr( 'id' )
@@ -96,6 +89,7 @@ $( function () {
                 node_item.attr( 'href' , obj.link )
                 listStudy.append( node_item )
             } )
+
             for ( var i = 64 ; i < 91 ; i++ ) {
                 let node_item = $( '#ex_5' ).clone()
                 node_item.text( String.fromCharCode( i ) )
@@ -114,6 +108,12 @@ $( function () {
             pageNavStudy.find( ':eq(1)' ).text( '*' )
         }
     } )
+
+    function sortUp( list ) {
+        list.sort( function ( v1 , v2 ) {
+            return v1.name.charCodeAt( 0 ) - v2.name.charCodeAt( 0 )
+        } )
+    }
 
     function freshKuang( v ) {
         listKuang.find( '#ex_1' ).siblings().remove()
