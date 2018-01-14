@@ -110,6 +110,15 @@
           "http://lodashjs.com/",
           "http://lodashjs.com/docs/"
         ]
+      },
+      {
+        "name": "Electronjs",
+        "mark": "跨平台桌面应用程序的一个开源库",
+        "img": "img/electronjs.png",
+        "link": [
+          "https://electronjs.org/",
+          "https://electronjs.org/docs"
+        ]
       }
     ],
     "tool": [
