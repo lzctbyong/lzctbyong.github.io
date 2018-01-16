@@ -10,7 +10,7 @@ $( function () {
     $.ajax( {
         type       : 'GET' ,
         contentType: 'application/json;charset=utf-8' ,
-        url        : urlarr[ urlarr.length - 1 ] == 'index.html' ? 'kuang.json' : 'android.json' ,
+        url        : urlarr[ urlarr.length - 1 ] == 'android.html' ? 'android.json' : 'kuang.json' ,
         dataType   : 'json' ,
         success    : function ( res ) {
             var kuang = res.data.kuang
