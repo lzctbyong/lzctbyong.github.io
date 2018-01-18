@@ -145,6 +145,12 @@
         "mark": "Web 文档",
         "img": "img/mdn.png",
         "link": "https://developer.mozilla.org/zh-CN/"
+      },
+      {
+        "name": "vue-resource",
+        "mark": "The plugin for Vue.js provides services for making web requests",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://github.com/pagekit/vue-resource"
       }
     ],
     "study": [

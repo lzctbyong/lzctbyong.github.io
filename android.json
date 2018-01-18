@@ -4,7 +4,7 @@
       {
         "name": "AppIntro",
         "mark": "Make a cool intro for your Android app.",
-        "img": "img/logger.png",
+        "img": "https://dummyimage.com/300x150",
         "link": [
           "https://github.com/apl-devs/AppIntro"
         ]
@@ -12,7 +12,7 @@
       {
         "name": "ButterKnife",
         "mark": "Bind Android views and callbacks to fields and methods",
-        "img": "img/square.png",
+        "img": "https://dummyimage.com/300x150",
         "link": [
           "https://github.com/JakeWharton/butterknife"
         ]
@@ -31,7 +31,7 @@
       {
         "name": "RxAndroid2",
         "mark": "Reactive Extensions for Android",
-        "img": "img/square.png",
+        "img": "https://dummyimage.com/300x150",
         "link": [
           "https://github.com/ReactiveX/RxAndroid"
         ]
@@ -39,7 +39,7 @@
       {
         "name": "RxJava2",
         "mark": "Composing asynchronous and event-based programs using observable ",
-        "img": "img/square.png",
+        "img": "https://dummyimage.com/300x150",
         "link": [
           "https://github.com/ReactiveX/RxJava"
         ]
@@ -47,7 +47,7 @@
       {
         "name": "OkHttp3",
         "mark": "An HTTP & HTTP/2 client for Android and Java applications",
-        "img": "img/square.png",
+        "img": "https://dummyimage.com/300x150",
         "link": [
           "https://github.com/square/okhttp"
         ]
@@ -55,7 +55,7 @@
       {
         "name": "Retrofit",
         "mark": "Type-safe HTTP client for Android",
-        "img": "img/square.png",
+        "img": "https://dummyimage.com/300x150",
         "link": [
           "https://github.com/square/retrofit"
         ]
@@ -64,7 +64,7 @@
       {
         "name": "LeakCanary",
         "mark": "A memory leak detection library for Android and Java",
-        "img": "img/square.png",
+        "img": "https://dummyimage.com/300x150",
         "link": [
           "https://github.com/square/leakcanary"
         ]
