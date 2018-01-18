@@ -147,7 +147,7 @@
         "link": "https://developer.mozilla.org/zh-CN/"
       },
       {
-        "name": "vue-resource",
+        "name": "Vue-resource",
         "mark": "The plugin for Vue.js provides services for making web requests",
         "img": "https://dummyimage.com/300x150",
         "link": "https://github.com/pagekit/vue-resource"
