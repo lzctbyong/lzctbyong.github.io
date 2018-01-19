@@ -151,6 +151,12 @@
         "mark": "The plugin for Vue.js provides services for making web requests",
         "img": "https://dummyimage.com/300x150",
         "link": "https://github.com/pagekit/vue-resource"
+      },
+      {
+        "name": "Wechat微信小程序",
+        "mark": "微信小程序是一种全新的连接用户与服务的方式",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://mp.weixin.qq.com/debug/wxadoc/dev/quickstart/basic/file.html"
       }
     ],
     "study": [
