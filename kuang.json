@@ -157,6 +157,24 @@
         "mark": "微信小程序是一种全新的连接用户与服务的方式",
         "img": "https://dummyimage.com/300x150",
         "link": "https://mp.weixin.qq.com/debug/wxadoc/dev/quickstart/basic/file.html"
+      },
+      {
+        "name": "Icomoon",
+        "mark": "SVG 图标字体",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://icomoon.io/"
+      },
+      {
+        "name": "Font-Awesome",
+        "mark": "图标字体",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://fontawesome.com/pro"
+      },
+      {
+        "name": "CSS-Reset",
+        "mark": "most popular CSS Reset scripts",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://cssreset.com/"
       }
     ],
     "study": [

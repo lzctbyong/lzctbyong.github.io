@@ -40,3 +40,44 @@
     }
 }
 
+.form-inline {
+    position: relative;;
+}
+
+.form-inline .tks {
+    display: inline-block;
+    color: goldenrod;
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-inline .tks:hover .payimg {
+    display: block;
+}
+
+.form-inline .payimg {
+    width: 400px;
+    height: 280px;
+    position: absolute;
+    left: -300px;
+    top: 40px;
+    float: left;
+    z-index: 3;
+    -moz-box-shadow: 0px 0px 19px #333333;
+    -webkit-box-shadow: 0px 0px 19px #333333;
+    box-shadow: 0px 0px 19px #333333;
+    transition: 0.5s;
+    display: none;
+}
+
+.payimg img {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.navbar .text-light{
+    font-size: 14px;
+}
