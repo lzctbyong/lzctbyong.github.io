@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "51CTO",
+      "link": "http://edu.51cto.com/center/course/index/search?q="
+    },
+    {
+      "name": "网易云课堂",
+      "link": "http://study.163.com/courses-search?keyword="
+    },
+    {
+      "name": "搜狐名校",
+      "link": "http://edu.tv.sohu.com/search?wd="
+    },
+    {
+      "name": "CSDN学院",
+      "link": "http://so.csdn.net/so/search/s.do?t=course&q="
+    },
+    {
+      "name": "极客学院",
+      "link": "http://www.jikexueyuan.com/course/jquery/"
+    },
+    {
+      "name": "麦子学院",
+      "link": "http://www.maiziedu.com/search/course/vueasdasd-1/"
+    },
+    {
+      "name": "慕课网",
+      "link": "https://www.imooc.com/search/course?words="
+    },
+    {
+      "name": "imooc",
+      "link": "https://mooc.guokr.com"
+    },
+    {
+      "name": "实验楼",
+      "link": "https://www.shiyanlou.com"
+    },
+    {
+      "name": "百度传课",
+      "link": "https://chuanke.baidu.com/"
+    },
+    {
+      "name": "腾讯精品课",
+      "link": "http://class.qq.com/class/13741.html"
+    },
+    {
+      "name": "尚学堂",
+      "link": "http://www.bjsxt.com/"
+    }
+  ]
+}

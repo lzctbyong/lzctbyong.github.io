@@ -6,11 +6,20 @@ var pageNavTool = $( '#pageNav_tool' )
 var pageNavStudy = $( '#pageNav_study' )
 
 $( function () {
+    var dataSrc
     var urlarr = window.location.pathname.split( '/' )
+    switch ( urlarr ) {
+        case 'android.html':
+            dataSrc = 'android.json'
+        case 'study.html':
+            dataSrc = 'study.json'
+        default:
+            dataSrc = 'kuang.json'
+    }
     $.ajax( {
         type       : 'GET' ,
         contentType: 'application/json;charset=utf-8' ,
-        url        : urlarr[ urlarr.length - 1 ] == 'android.html' ? 'android.json' : 'kuang.json' ,
+        url        : dataSrc ,
         dataType   : 'json' ,
         success    : function ( res ) {
             var kuang = res.data.kuang
@@ -51,7 +60,7 @@ $( function () {
 
 
             var tool = res.data.tool
-            sortUp(tool)
+            sortUp( tool )
             tool.map( ( obj ) => {
                 let node_item = $( '#ex_2' ).clone()
                 node_item.removeAttr( 'id' )
@@ -80,7 +89,7 @@ $( function () {
             pageNavTool.find( ':eq(1)' ).text( '*' )
 
             var study = res.data.study
-            sortUp(study)
+            sortUp( study )
             study.map( ( obj ) => {
                 let node_item = $( '#ex_6' ).clone()
                 node_item.removeAttr( 'id' )

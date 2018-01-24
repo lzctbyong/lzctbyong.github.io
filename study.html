@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>码头</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<nav class="navbar  navbar-expand-md navbar-dark bg-dark  ">
+    <a class="navbar-brand " href="index.html"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-5  ml-md-5">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html">前端</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-md-5 ">
+                <a class="nav-link" href="android.html">安卓</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-md-5 active">
+                <a class="nav-link" href="study.html">网课</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-md-5 author1">
+                <a class="navbar-text text-light">作者 : 刘正超 QQ:190127207</a>
+            </li>
+        </ul>
+    </div>
+    <form class="form-inline author2">
+        <div class="tks">
+            <span>捐赠</span>
+            <div class="payimg">
+                <img src="img/alipay.png" alt="">
+                <img src="img/wechat.png" alt="">
+            </div>
+        </div>
+        <a class="navbar-text text-light" href="tencent://QQInterLive/?Cmd=2&Uin=190127207">作者 : 刘正超
+            QQ:190127207</a>
+    </form>
+</nav>
+
+<div class="container-fluid">
+    <div class="row mt-4 ml-2">
+        <input class="form-control col-sm-9" type="search" placeholder="输入你要搜索的课程"
+               aria-label="Search" id="query">
+        <button class="btn btn-outline-success my-2 my-sm-0 ml-3" type="submit" id="search">生成链接
+        </button>
+    </div>
+    <div class="row m-2" id="list">
+        <div class="card col-md-3  mr-auto" style="width: 18rem;" id="ex_1">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <a href="#" target="_blank" class="card-link">跳转</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/study.js"></script>
+
+</html>
