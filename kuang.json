@@ -223,6 +223,12 @@
         "mark": "Just-add-water CSS animations",
         "img": "https://dummyimage.com/300x150",
         "link": "https://daneden.github.io/animate.css/"
+      },
+      {
+        "name": "Axios",
+        "mark": "Promise based HTTP client for the browser and node.js",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://github.com/axios/axios"
       }
     ],
     "study": [
