@@ -235,6 +235,12 @@
         "mark": "A querystring parser with nesting support",
         "img": "https://dummyimage.com/300x150",
         "link": "https://github.com/ljharb/qs"
+      },
+      {
+        "name": "Mock.js",
+        "mark": "生成随机数据，拦截 Ajax 请求",
+        "img": "https://dummyimage.com/300x150",
+        "link": "http://mockjs.com/"
       }
     ],
     "study": [
