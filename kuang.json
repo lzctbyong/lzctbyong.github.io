@@ -229,6 +229,12 @@
         "mark": "Promise based HTTP client for the browser and node.js",
         "img": "https://dummyimage.com/300x150",
         "link": "https://github.com/axios/axios"
+      },
+      {
+        "name": "Qs",
+        "mark": "A querystring parser with nesting support",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://github.com/ljharb/qs"
       }
     ],
     "study": [
