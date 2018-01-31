@@ -245,6 +245,12 @@
         "mark": "移动端网站的内容触摸滑动",
         "img": "https://dummyimage.com/300x150",
         "link": "http://www.swiper.com.cn/"
+      },
+      {
+        "name": "Vue-Awesome-Swiper",
+        "mark": "Swiper的Vue版本",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://github.com/surmon-china/vue-awesome-swiper"
       }
     ],
     "study": [
