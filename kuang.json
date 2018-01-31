@@ -4,8 +4,7 @@
       {
         "name": "Vue.Js",
         "mark": "构建用户界面的渐进式框架",
-        "img":
-          "https://static.bootcss.com/www/assets/img/vuejs.png?1515168018759",
+        "img": "https://static.bootcss.com/www/assets/img/vuejs.png?1515168018759",
         "link": [
           "https://vuejs.org/index.html",
           "https://vuejs.org/v2/api/",
@@ -116,7 +115,10 @@
         "name": "Electronjs",
         "mark": "跨平台桌面应用程序的一个开源库",
         "img": "img/electronjs.png",
-        "link": ["https://electronjs.org/", "https://electronjs.org/docs"]
+        "link": [
+          "https://electronjs.org/",
+          "https://electronjs.org/docs"
+        ]
       },
       {
         "name": "Ant Design",
@@ -168,18 +170,15 @@
       },
       {
         "name": "Vue-Resource",
-        "mark":
-          "The plugin for Vue.js provides services for making web requests",
-        "img":
-          "https://static.bootcss.com/www/assets/img/vuejs.png?1515168018759",
+        "mark": "The plugin for Vue.js provides services for making web requests",
+        "img": "https://static.bootcss.com/www/assets/img/vuejs.png?1515168018759",
         "link": "https://github.com/pagekit/vue-resource"
       },
       {
         "name": "Wechat微信小程序",
         "mark": "微信小程序是一种全新的连接用户与服务的方式",
         "img": "https://dummyimage.com/300x150",
-        "link":
-          "https://mp.weixin.qq.com/debug/wxadoc/dev/quickstart/basic/file.html"
+        "link": "https://mp.weixin.qq.com/debug/wxadoc/dev/quickstart/basic/file.html"
       },
       {
         "name": "Icomoon",
@@ -214,8 +213,7 @@
       {
         "name": "Vue-Router",
         "mark": "Vue导航",
-        "img":
-          "https://static.bootcss.com/www/assets/img/vuejs.png?1515168018759",
+        "img": "https://static.bootcss.com/www/assets/img/vuejs.png?1515168018759",
         "link": "https://router.vuejs.org/zh-cn/"
       },
       {
@@ -241,6 +239,12 @@
         "mark": "生成随机数据，拦截 Ajax 请求",
         "img": "https://dummyimage.com/300x150",
         "link": "http://mockjs.com/"
+      },
+      {
+        "name": "Swiper",
+        "mark": "移动端网站的内容触摸滑动",
+        "img": "https://dummyimage.com/300x150",
+        "link": "http://www.swiper.com.cn/"
       }
     ],
     "study": [
