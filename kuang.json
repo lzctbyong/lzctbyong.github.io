@@ -263,6 +263,12 @@
         "mark": "中国最大的中文网站分析平台",
         "img": "https://dummyimage.com/300x150",
         "link": "https://tongji.baidu.com/web/welcome/login"
+      },
+      {
+        "name": "Normalize CSS",
+        "mark": "A modern, HTML5-ready alternative to CSS resets",
+        "img": "https://necolas.github.io/normalize.css/logo.svg",
+        "link": "https://necolas.github.io/normalize.css/"
       }
     ],
     "study": [
