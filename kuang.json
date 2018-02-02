@@ -257,6 +257,12 @@
         "mark": "Vue.js 应用程序开发的状态管理模式",
         "img": "https://dummyimage.com/300x150",
         "link": "https://vuex.vuejs.org/zh-cn/intro.html"
+      },
+      {
+        "name": "Baidu 统计",
+        "mark": "中国最大的中文网站分析平台",
+        "img": "https://dummyimage.com/300x150",
+        "link": "https://tongji.baidu.com/web/welcome/login"
       }
     ],
     "study": [
